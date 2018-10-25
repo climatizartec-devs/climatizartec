@@ -673,7 +673,7 @@ header{
 
 @media (max-width: 321px) { 
     .text__banner {
-        font-size: 30px;
+        font-size: 25px;
         width: 190px; 
     }
 
