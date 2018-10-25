@@ -371,7 +371,7 @@ header{
 
 /*////// MEDIA QUERY //////*/
 
-@media (max-width: 1024px){
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
 
     /*NAV*/
 
@@ -445,7 +445,7 @@ header{
 }
 
 
-@media (max-width: 768px){
+@media screen and (min-width: 599px) and (max-width: 768px){
 
 
     .nav__primary{
@@ -489,6 +489,12 @@ header{
     .card-title {
         font-size: 26px;
         padding: 10px 0 0 10px;
+    }
+
+    .card-body {
+        border: 2px solid #074582;
+        min-height: 350px;
+        min-width: 550px;
     }
 
     .btn-outline-info {
@@ -659,6 +665,10 @@ header{
         display: inline;
         text-align: center;
     }
+
+    .footer {
+        height: 580px;
+    }
 }
 
 @media (max-width: 321px) { 
@@ -692,7 +702,7 @@ header{
     }
 
     .footer {
-        height: 478px;
+        height: 580px;
     }
 
     .footer__contato-mobile {
