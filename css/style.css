@@ -695,7 +695,7 @@ header{
     }
 }
 
-@media (max-width: 321px) {
+@media screen and (min-width: 300px) and (max-width: 420px) {
 
     .nav__primary{
         right: 0px;
@@ -754,6 +754,10 @@ header{
 
     .footer__email{
         font-size: 20px;
+    }
+
+    .footer__p-end{
+        text-align: center;
     }
 }
  
