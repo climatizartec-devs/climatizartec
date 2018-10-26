@@ -36,11 +36,6 @@ html {
     font-size: 30px;
 }
 
-.nav__primary {
-    display: flex;
-    justify-content: flex-end;
-}
-
 .navbar {
     z-index: 99999999;
     background-color: #23919B;
@@ -458,9 +453,9 @@ header{
     }
 
     .text__banner{
-        font-size: 30px;
+        font-size: 35px;
         font-weight: 600;
-        width: 190px;
+        width: 300px;
     }
     
     .text__banner-manutencao, .text__banner-instalacao{
@@ -517,18 +512,22 @@ header{
     /*CONTATO*/
 
     .contato__input{
-    width: 470px;
+        width: 470px;
     }
 
     .contato__btn{
         font-size: 18px;
     }
 
+    .contato__label{
+        width: 100%;
+        text-align: center;
+    }
 
     /*FOOTER*/
 
     .footer {
-        height: 500px;
+        height: 450px;
     }
 
     .footer__contato{
@@ -569,7 +568,6 @@ header{
 
 @media (max-width: 421px) {
 
-
     .nav__primary{
     right: 0px;
     top: 60px;
@@ -587,17 +585,16 @@ header{
 
     .about__imagem {
         padding-top: 30px;
-   
     }
 
     .cards {
         padding-top: 30px;
-
     }
 
     .card-body {
         margin-bottom: 10px;
         min-width: 380px;
+        margin: 0 50px;
     }
     
     .navbar__title{
@@ -641,6 +638,7 @@ header{
     .contato h3 {
         font-size: 18px;
     }
+
     .contato__mobile{
         text-align: center;
     }
@@ -722,6 +720,7 @@ header{
     .card-body {
         margin-bottom: 10px;
         min-width: 300px;
+        margin: 0 50px;
     }
 
     .btn-outline-info {
