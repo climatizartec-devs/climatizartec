@@ -449,7 +449,12 @@ header{
 
 
     .nav__primary{
-        position: absolute;
+    right: 0px;
+    top: 60px;
+    text-align: right;
+    background: rgb(25, 145, 156);
+    padding: 0px 2rem;
+    position: absolute;
     }
 
     .text__banner{
@@ -564,6 +569,16 @@ header{
 
 @media (max-width: 421px) {
 
+
+    .nav__primary{
+    right: 0px;
+    top: 60px;
+    text-align: right;
+    background: rgb(25, 145, 156);
+    padding: 0px 2rem;
+    position: absolute;
+    }
+
     .about {
     margin-top: 45px;
     padding-top: 30px;
@@ -611,14 +626,15 @@ header{
     }
 
     .text__banner{
-        font-size: 35px;
+        font-size: 25px;
+        width: 280px;
     }
 
     .text__banner-manutencao, .text__banner-instalacao{
         color: #074582;
-        font-size: 30px;
+        font-size: 25px;
         font-weight: 600;
-        width: 400px;
+        width: 280px;
         
     }
 
@@ -657,24 +673,42 @@ header{
         text-align: left;
     }
 
-    .hr__footer {
-        margin-left: 99px;
-    }
-
     .footer__contato-mobile {
         display: inline;
         text-align: center;
     }
 
     .footer {
-        height: 580px;
+        height: 500px;
+    }
+
+    .hr__footer {
+        margin-left: 90px;
+    }
+
+    .footer__p{
+        font-size: 16px;
+    }
+
+    .footer__email{
+        font-size: 20px;
     }
 }
 
-@media (max-width: 321px) { 
+@media (max-width: 321px) {
+
+    .nav__primary{
+        right: 0px;
+        top: 60px;
+        text-align: right;
+        background: rgb(25, 145, 156);
+        padding: 0px 2rem;
+        position: absolute;
+    }
+
     .text__banner {
         font-size: 25px;
-        width: 190px; 
+        width: 250px; 
     }
 
     .text__banner-manutencao, .text__banner-instalacao{
@@ -702,12 +736,24 @@ header{
     }
 
     .footer {
-        height: 580px;
+        height: 520px;
     }
 
     .footer__contato-mobile {
         display: inline;
         text-align: center;
+    }
+
+    .hr__footer {
+        margin-left: 40px;
+    }
+
+    .footer__p{
+        font-size: 16px;
+    }
+
+    .footer__email{
+        font-size: 20px;
     }
 }
  
